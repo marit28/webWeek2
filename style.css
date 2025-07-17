@@ -1,0 +1,138 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f2ff;
+  color: #333;
+}
+
+.container {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 40px 30px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+header {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  padding: 40px 20px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+}
+
+img.profile {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+img.profile:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  margin: 10px 0 5px;
+  font-size: 2.4em;
+  font-weight: 600;
+}
+
+h2 {
+  margin-top: 25px;
+  font-size: 1.4em;
+  color: #005b99;
+}
+
+section {
+  margin-top: 30px;
+  line-height: 1.7;
+}
+
+ul, ol {
+  padding-left: 25px;
+}
+
+img.edu-img,
+img.school-img {
+  width: 120px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+img.edu-img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+img.school-img {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.school-text,.edu-text {
+  text-align: center;
+  font-style: italic;
+  color: #555;
+}
+
+hr.divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 35px 0;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer h2 {
+  margin-bottom: 10px;
+  color: #0072ff;
+}
+
+footer a {
+  margin: 0 10px;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: white;
+  background-color: #0072ff;
+  border-radius: 20px;
+  transition: background 0.3s;
+  font-size: 0.95em;
+}
+
+footer a:hover {
+  background-color: #005bb5;
+}
+
+a {
+  color: #0072ff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  img.edu-img {
+    float: none;
+    display: block;
+    margin: 0 auto 10px;
+  }
+
+  .container {
+    padding: 30px 15px;
+  }
+
+  ul, ol {
+    padding-left: 18px;
+  }
+}
